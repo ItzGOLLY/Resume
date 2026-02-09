@@ -1,12 +1,8 @@
 # Aarush Jagannathan - Portfolio Website
 
-A modern, animated portfolio website built with React, TypeScript, Tailwind CSS, and GSAP.
-
-![Portfolio Preview](./public/profile-hero.jpg)
-
 ## 🚀 Live Demo
 
-[View Live Site](https://your-github-username.github.io/your-repo-name)
+[View Live Site](https://itzgolly.github.io/Resume/)
 
 ## ✨ Features
 
