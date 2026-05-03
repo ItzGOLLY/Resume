@@ -1,13 +1,218 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aarush Jagannathan - Portfolio</title>
-    <script type="module" crossorigin src="./assets/index-tG6nHD0w.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-CvmEMS37.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul — Embedded Systems & Edge AI Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-content">
+            <p class="greeting">Hello, I'm</p>
+            <h1>Aarush</h1>
+            <h2>Embedded Systems & Edge AI Engineer & IoT Engineer</h2>
+            <p class="tagline">Building real-time perception systems, industrial sensor networks, and autonomous driving pipelines from bare metal to cloud</p>
+            <div class="hero-links">
+                <a href="https://github.com/itzgolly" class="btn-primary">GitHub</a>
+                <a href="https://linkedin.com/in/YOUR_LINKEDIN" class="btn-secondary">LinkedIn</a>
+                <a href="mailto:23BLC1211@vit.ac.in" class="btn-secondary">Email</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="profile-hero.jpg" alt="Abdul">
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about">
+        <div class="about-image">
+            <img src="profile-about.jpg" alt="About Abdul">
+        </div>
+        <div class="about-content">
+            <h2>Who am I?</h2>
+            <p>I am a passionate and driven engineering student with a keen interest in embedded systems, edge AI, IoT, and autonomous driving technologies. I enjoy building real-time systems, working with industrial protocols like Modbus and CAN bus, and deploying machine learning models on edge devices like NVIDIA Jetson.</p>
+            <p>With strong hands-on hardware experience and analytical abilities, I thrive in environments where I can bridge bare-metal programming with intelligent cloud-connected systems.</p>
+            <div class="contact-info">
+                <div><span class="label">Email</span><span class="value">23BLC1211@vit.ac.in</span></div>
+                <div><span class="label">Degree</span><span class="value">B.Tech (Computer Science)</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        
+        <div class="project-card">
+            <h3>⚡ IoT-Based Energy Monitoring System</h3>
+            <p class="project-company">Zoho Corporation — 2 Month Internship</p>
+            <p class="project-desc">Industrial-grade energy monitoring using Modbus RTU over RS485 and MQTT over TLS. ESP32 gateway reads Schneider Conzerv EM6400NG 3-phase energy meter and publishes live data to Zoho IoT Cloud with real-time dashboard, configurable alarm rules, and remote diagnostics.</p>
+            <div class="project-tags">
+                <span class="tag">ESP32</span>
+                <span class="tag">Modbus RTU</span>
+                <span class="tag">RS485</span>
+                <span class="tag">MQTT/TLS</span>
+                <span class="tag">C++</span>
+                <span class="tag">Zoho IoT SDK</span>
+            </div>
+            <a href="https://github.com/itzgolly/iot-energy-monitor-modbus-mqtt" class="project-link">View on GitHub →</a>
+        </div>
+
+        <div class="project-card">
+            <h3>🔧 Low-Cost Energy Meter</h3>
+            <p class="project-company">Personal Project</p>
+            <p class="project-desc">Cost-optimized energy monitoring solution for Indian market. Sub-₹500 hardware design with ESP32 and current transformers, maintaining accuracy without expensive components.</p>
+            <div class="project-tags">
+                <span class="tag">ESP32</span>
+                <span class="tag">Hardware Design</span>
+                <span class="tag">Cost Optimization</span>
+            </div>
+            <a href="https://github.com/itzgolly/low-cost-energy-meter" class="project-link">View on GitHub →</a>
+        </div>
+
+        <div class="project-card">
+            <h3>🚗 IMU-Conditioned Diffusion for 3D Perception</h3>
+            <p class="project-company">Research Project — Patent Pending</p>
+            <p class="project-desc">Real-time dense 3D point cloud generation from single-plane LiDAR using conditional diffusion models. Optimized with CUDA and TensorRT for NVIDIA Jetson Orin NX deployment in autonomous vehicles.</p>
+            <div class="project-tags">
+                <span class="tag">PyTorch</span>
+                <span class="tag">CUDA</span>
+                <span class="tag">TensorRT</span>
+                <span class="tag">Jetson Orin NX</span>
+                <span class="tag">LiDAR</span>
+            </div>
+            <a href="https://github.com/itzgolly/conditional-point-diffusion" class="project-link">View on GitHub →</a>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="experience">
+        <h2 class="section-title">My Journey</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>IoT Intern</h3>
+                <p class="company">Zoho Corporation</p>
+                <ul>
+                    <li>Built production ESP32 gateway for industrial energy meter data transmission to Zoho IoT Cloud</li>
+                    <li>Implemented Modbus RTU over RS485 and MQTT over TLS with certificate pinning</li>
+                    <li>Designed captive portal (WiFiManager) for zero-touch device provisioning</li>
+                    <li>Created real-time dashboard with 9 electrical parameters and configurable alarm rules</li>
+                </ul>
+            </div>
+            <div class="timeline-item">
+                <h3>Core Team Member</h3>
+                <p class="company">Pop Culture Club, VIT</p>
+                <ul>
+                    <li>Organizing and managing club events and activities</li>
+                    <li>Collaborating with team members for successful event execution</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h4>Embedded & Hardware</h4>
+                <p>ESP32, STM32, Arduino, Raspberry Pi, Pico, CAN bus, Modbus RTU/TCP, RS485, UART, SPI, I2C</p>
+            </div>
+            <div class="skill-card">
+                <h4>Edge AI & ML</h4>
+                <p>NVIDIA Jetson Orin NX/Nano, TensorRT, CUDA, PyTorch, Python, Computer Vision, Point Cloud Processing</p>
+            </div>
+            <div class="skill-card">
+                <h4>IoT & Cloud</h4>
+                <p>MQTT, HTTP/REST, WebSocket, Zoho IoT, AWS IoT Core, Node-RED, Firebase</p>
+            </div>
+            <div class="skill-card">
+                <h4>Software</h4>
+                <p>C, C++, Python, JavaScript/TypeScript, React, Git, Docker, PlatformIO</p>
+            </div>
+        </div>
+        <div class="extra-skills">
+            <h4>Additional Competencies</h4>
+            <div class="extra-tags">
+                <span class="tag">Data Analysis</span>
+                <span class="tag">Problem Solving</span>
+                <span class="tag">Project Management</span>
+                <span class="tag">Research</span>
+                <span class="tag">Team Collaboration</span>
+                <span class="tag">Technical Documentation</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="education">
+        <h2 class="section-title">Academic Background</h2>
+        <div class="edu-grid">
+            <div class="edu-card" onclick="this.classList.toggle('flipped')">
+                <div class="edu-front">
+                    <h3>B.Tech in Computer Science</h3>
+                    <p class="school">Vellore Institute of Technology (VIT)</p>
+                    <p class="detail">Reg. No: 23BLC1211 | Focus: Embedded Systems, IoT, Real-Time Systems</p>
+                    <span class="flip-hint">Click to see achievements</span>
+                </div>
+                <div class="edu-back">
+                    <h4>Key Achievements</h4>
+                    <ul>
+                        <li>Core Team Member of Pop Culture Club</li>
+                        <li>Active participant in technical events</li>
+                        <li>Strong academic performance</li>
+                    </ul>
+                    <span class="flip-hint">Click to flip back</span>
+                </div>
+            </div>
+            <div class="edu-card" onclick="this.classList.toggle('flipped')">
+                <div class="edu-front">
+                    <h3>12th Grade (Senior Secondary)</h3>
+                    <p class="school">Sri Chaitanya Techno School Perumbakkam</p>
+                    <p class="detail">Excelled in Science and Mathematics</p>
+                    <span class="flip-hint">Click to see achievements</span>
+                </div>
+                <div class="edu-back">
+                    <h4>Key Achievements</h4>
+                    <ul>
+                        <li>Strong foundation in Physics and Chemistry</li>
+                        <li>Active participation in science exhibitions</li>
+                    </ul>
+                    <span class="flip-hint">Click to flip back</span>
+                </div>
+            </div>
+            <div class="edu-card" onclick="this.classList.toggle('flipped')">
+                <div class="edu-front">
+                    <h3>10th Grade (Secondary)</h3>
+                    <p class="school">Sri Chaitanya Techno School Perumbakkam</p>
+                    <p class="detail">Consistently high academic performance</p>
+                    <span class="flip-hint">Click to see achievements</span>
+                </div>
+                <div class="edu-back">
+                    <h4>Key Achievements</h4>
+                    <ul>
+                        <li>Developed strong analytical skills</li>
+                        <li>Participated in various extracurricular activities</li>
+                    </ul>
+                    <span class="flip-hint">Click to flip back</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="contact">
+        <h2>Let's Talk</h2>
+        <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+        <p class="email">23BLC1211@vit.ac.in</p>
+        <div class="footer-links">
+            <a href="https://github.com/itzgolly">GitHub</a>
+            <a href="https://linkedin.com/in/YOUR_LINKEDIN">LinkedIn</a>
+        </div>
+    </footer>
+</body>
 </html>
